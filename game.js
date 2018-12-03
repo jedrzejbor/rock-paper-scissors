@@ -54,7 +54,7 @@ function publishResult(player, ai, result) {
 
     } else {
         document.querySelector('p.draws span').textContent = ++gameSummary.draws;
-        winner.textContent = "TO JEST REMIS!!!";
+        winner.textContent = "ZREMISOWAŁEŚ!!!";
 
     }
 
